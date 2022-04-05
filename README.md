@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# React Meme Generator
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Check the tutorial <a href="https://scrimba.com/learn/learnreact">here</a>
 
 ## Available Scripts
 

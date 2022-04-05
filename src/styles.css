@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla";
+}
+
+.navbar {
+    display: flex;
+    background-color: rgba(103, 34, 128, 1);
+    height: 65px;
+    color: white;
+    padding: 19px;
+}
+
+.navbar--logo {
+    align-self: left;
+    max-width: 31px;
+}
+
+.navbar--text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+}
