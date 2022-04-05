@@ -7,13 +7,13 @@ function Meme(){
                 <input 
                     type="text"
                     placeholder="Top text" 
-                    className="form--inputs"
+                    className="form--input"
                 />
 
                 <input 
                     type="text"
                     placeholder="Bottom text" 
-                    className="form--inputs"
+                    className="form--input"
                 />
               
               <button 

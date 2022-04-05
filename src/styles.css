@@ -43,17 +43,18 @@ main {
 
 }
 
-.form--inputs {
+.form--input {
     border-radius: 5px;
     border: 1px solid #D5D4D8;
+    text-indent: 5px;
 }
 
 .form--button {
     grid-column: 1 / -1;
-    width: 477px;
-    height: 40px;
-    margin: 0 auto;
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     border-radius: 5px;
     color: white;
+    border: none;
+    cursor: pointer;
+
 }
