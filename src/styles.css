@@ -3,25 +3,57 @@
 }
 
 body {
-    font-family: "Karla";
+    font-family: "Karla", sans-serif;
+    margin: 0;
 }
 
-.navbar {
+.header {
     display: flex;
-    background-color: rgba(103, 34, 128, 1);
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     height: 65px;
     color: white;
-    padding: 19px;
+    padding: 20px;
 }
 
-.navbar--logo {
-    align-self: left;
-    max-width: 31px;
+.header--logo {
+    height: 100%;
+    margin-right: 6px;
 }
 
-.navbar--text {
+.header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.header--text {
+    font-size: 0.75rem;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: right;
+}
+
+main {
+    padding: 36px;
+}
+
+.form {
+    display: grid;
+    /* grid-template-rows / grid-template-columns values */
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+
+}
+
+.form--inputs {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    width: 477px;
+    height: 40px;
+    margin: 0 auto;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    color: white;
 }
